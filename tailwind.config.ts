@@ -121,7 +121,7 @@ export default {
         "slide-in-left": "slide-in-left 0.8s ease-out forwards",
         "slide-in-right": "slide-in-right 0.8s ease-out forwards",
         "glow-pulse": "glow-pulse 2s ease-in-out infinite",
-        "marquee": "marquee 30s linear infinite",
+        "marquee": "marquee 10s linear infinite",
         "spin-slow": "spin-slow 3s linear infinite",
         "loader-pulse": "loader-pulse 1.5s ease-in-out infinite",
         "loader-progress": "loader-progress 2s ease-in-out infinite",
