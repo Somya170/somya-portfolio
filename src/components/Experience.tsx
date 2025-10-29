@@ -7,7 +7,7 @@ import companyigtr from "@/assets/igtr.png";
 const experiences = [
   {
     company: "I-SOFTZONE",
-    role: "Software Engineer Intern (AI/ML)",
+    role: "AI/ML Engineer Intern",
     duration: "May 2025 – July 2025",
     skills: ["Python", "Machine Learning", "Deep Learning", "TensorFlow"],
     description: "Developed AI-powered solutions and implemented machine learning models for real-world applications.",
