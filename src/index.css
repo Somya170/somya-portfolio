@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Coding Terminal Theme - Light Mode */
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+
+    --primary: 158 64% 52%;
+    --primary-foreground: 240 5.9% 10%;
+
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+
+    --accent: 195 100% 50%;
+    --accent-foreground: 240 5.9% 10%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 158 64% 52%;
+
+    --radius: 0.5rem;
+
+    /* Custom gradient colors */
+    --gradient-start: 158 64% 52%;
+    --gradient-end: 195 100% 50%;
+    --glow-primary: 158 64% 52%;
+
+    /* Sidebar (not used in portfolio but keeping for compatibility) */
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 240 10% 3.9%;
+    --sidebar-primary: 158 64% 52%;
+    --sidebar-primary-foreground: 240 5.9% 10%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 240 5.9% 90%;
+    --sidebar-ring: 158 64% 52%;
+  }
+
+  .dark {
+    /* Coding Terminal Theme - Dark Mode */
+    --background: 240 10% 3.9%;
+    --foreground: 158 64% 52%;
+
+    --card: 240 5% 7%;
+    --card-foreground: 158 64% 52%;
+
+    --popover: 240 5% 7%;
+    --popover-foreground: 158 64% 52%;
+
+    --primary: 158 64% 52%;
+    --primary-foreground: 240 5.9% 10%;
+
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 158 64% 52%;
+
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+
+    --accent: 195 100% 50%;
+    --accent-foreground: 240 5.9% 10%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 158 64% 52%;
+
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 158 64% 52%;
+
+    --gradient-start: 158 64% 52%;
+    --gradient-end: 195 100% 50%;
+    --glow-primary: 158 64% 52%;
+
+    --sidebar-background: 240 10% 3.9%;
+    --sidebar-foreground: 158 64% 52%;
+    --sidebar-primary: 158 64% 52%;
+    --sidebar-primary-foreground: 240 5.9% 10%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 158 64% 52%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 158 64% 52%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
